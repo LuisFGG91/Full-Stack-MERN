@@ -6,13 +6,13 @@ Este proyecto tiene como objetivo proporcionar recursos educativos para aprender
 ## Contenidos
 
 ### 1. HTML (HyperText Markup Language)
-En la carpeta `html-fundamentals`, encontrarás lecciones y ejemplos relacionados con HTML. Aprenderás sobre la estructura básica de una página web, etiquetas HTML comunes y cómo crear contenido semántico.
+En la carpeta `html`, encontrarás lecciones y ejemplos relacionados con HTML. Aprenderás sobre la estructura básica de una página web, etiquetas HTML comunes y cómo crear contenido semántico.
 
 ### 2. CSS (Cascading Style Sheets)
-Dirígete a la carpeta `css-fundamentals` para acceder a tutoriales y prácticas centradas en CSS. Aprenderás a dar estilo a tus páginas web, desde conceptos básicos como colores y fuentes hasta diseño responsivo y animaciones.
+Dirígete a la carpeta `css` para acceder a tutoriales y prácticas centradas en CSS. Aprenderás a dar estilo a tus páginas web, desde conceptos básicos como colores y fuentes hasta diseño responsivo y animaciones.
 
 ### 3. JavaScript
-La carpeta `js-fundamentals` contiene recursos para aprender JavaScript, el lenguaje de programación esencial para hacer que tus páginas web sean interactivas. Explora conceptos como variables, funciones, manipulación del DOM y eventos.
+La carpeta `Javascript` contiene recursos para aprender JavaScript, el lenguaje de programación esencial para hacer que tus páginas web sean interactivas. Explora conceptos como variables, funciones, manipulación del DOM y eventos.
 
 ## Requisitos Previos
 Antes de comenzar con este proyecto, asegúrate de tener conocimientos básicos sobre cómo utilizar un navegador web y un editor de texto. No se requieren conocimientos previos de programación.
