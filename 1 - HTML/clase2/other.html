@@ -14,15 +14,6 @@
     <header>
         <h1>Nombre del Sitio</h1>
         <p>Eslogan del Sitio</p>
-        <!-- Menú de navegación -->
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- Contenido principal de la página -->
@@ -51,6 +42,27 @@
         <section id="servicios">
             <h2>Nuestros Servicios</h2>
             <p>Descripción de los servicios ofrecidos...</p>
+        </section>
+        <!-- Sección de servicios -->
+        <section id="contacto">
+            <h2>Nuestro contacto</h2>
+            <form action="/process" method="post">
+                <div>
+                    <label>Nombre: </label>
+                    <input type="text" name="name" placeholder="Your name...">
+                </div>
+                <div>
+                    <label>Email: </label>
+                    <input type="text" name="email" placeholder="Your email...">
+                </div>
+                <div>
+                    <input type="checkbox" name="offers" id="offers" checked>
+                    <label for="offers">Me gustaría
+                        recibir correos con ofertas.</label>
+                </div>
+                <input type="submit" value="Sign up input">
+                <button type="submit" value="Sign up">Sign up button</button>
+            </form>
         </section>
     </main>
 

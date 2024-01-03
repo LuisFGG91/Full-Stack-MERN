@@ -1,0 +1,76 @@
+*{
+    outline: 1px solid red;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+h2 {
+    color: rgb(30, 255, 0);
+}
+h3 {
+    color: rgb(0, 255, 247);
+}
+h4 {
+    color: rgb(0, 26, 255);
+}
+h5 {
+    color: rgb(64, 0, 255);
+}
+h6 {
+    color: rgb(255, 0, 0);
+}
+p {
+    color: chartreuse;
+}
+.is-centered{
+    color: rgb(255, 0, 0);
+}
+#game {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    background: linear-gradient(#1293f5, #bae8ff 80%, #35b236 80%);
+}
+#player {
+    margin-top: 120px;
+    margin-left: 80px;
+}
+.quote .is-centered p{
+    color: darkcyan ;
+    font-style: italic;
+}
+
+
+.color-red{
+    color: rgb(255, 0, 0);
+}
+.color-green{
+    color: rgb(4, 255, 0);
+}
+.color-negro{
+    color: rgb(0, 0, 0);
+}
+.style-font{
+    font-style: italic;
+}
+.size-font{
+    font-size: x-large;
+}
+input {
+    padding: 5px;
+    border-color: rebeccapurple;
+}
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid rebeccapurple;
+}
+input[type="password"] {
+    border: none;
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+input[type="submit"] {
+    color: white;
+    background-color: rebeccapurple;
+}
