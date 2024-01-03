@@ -46,4 +46,6 @@ Asegúrate de probar tu función con diferentes combinaciones de parámetros par
 
 Crea un archivo JavaScript (generadorContrasenas.js) que contenga tu implementación. Además, debes proporcionar evidencia de la generación de al menos 10 contraseñas. Incluye una imagen en este README.md que muestre la salida del programa con las contraseñas generadas.
 
-Carga este archivo en un repositorio PRIVADO de GitHub y Brindame acceso UserGitHub : LuisFGG91 
+Carga este archivo en un repositorio (puedes utilizar el mismo repositorio que ya has creado para el curso ) PRIVADO de GitHub y Brindame acceso UserGitHub : LuisFGG91 
+
+¡Buena suerte con la actividad!
