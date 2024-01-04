@@ -24,7 +24,10 @@ Esta actividad se centra en resaltar los primeros enunciados de cada párrafo en
     <head>
         <meta charset="utf-8">
         <title>Challenge: Group the groupers</title>
-        <style> </style>
+        <style> 
+        
+        
+        </style>
     </head>
     <body>
         <h1>Groupers</h1>

@@ -3,17 +3,17 @@
 }
 
 h1 {
-    color: rgb(255, 0, 0);
+    color: red;
     font-size: 50px;
 }
 h2 {
-    color: rgb(30, 255, 0);
+    color:green;
 }
 h3 {
-    color: rgb(0, 255, 247);
+    color: cyan;
 }
 h4 {
-    color: rgb(0, 26, 255);
+    color: blue;
 }
 h5 {
     color: rgb(64, 0, 255);

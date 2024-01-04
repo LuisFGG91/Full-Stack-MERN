@@ -1,0 +1,30 @@
+*{
+    outline: solid 2px green;
+}
+.container {
+    width:  720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+}
+.container-start {
+    width:  720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: flex-start;
+}
+.container-end {
+    width:  720px;
+    height: 250px;
+    background-color: silver;
+    display: flex;
+    align-items: flex-end;
+}
+    
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
