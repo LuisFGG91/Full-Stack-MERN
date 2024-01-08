@@ -42,6 +42,8 @@ Asegúrate de probar tu función con diferentes combinaciones de parámetros par
 
 ¡Buena suerte!
 
+Solucion 
+<a href="./generador.js"><h1>Solucion</h1> </a>
 ### Archivo JavaScript y Evidencia:
 
 Crea un archivo JavaScript (generadorContrasenas.js) que contenga tu implementación. Además, debes proporcionar evidencia de la generación de al menos 10 contraseñas. Incluye una imagen en este README.md que muestre la salida del programa con las contraseñas generadas.
