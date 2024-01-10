@@ -12,8 +12,8 @@
     */
     background-color: brown;
 }
-.color-green{
-    background-color: green!important;
+.color-beige{
+    background-color: rgb(249, 249, 242)!important;
 }
 
 .row{
@@ -29,7 +29,7 @@
     padding: 10px;
     margin: 10px;
 }
-.col-2{
+.col-flex-2{
     flex:2;
     background-color: blue;
     padding: 10px;
@@ -46,4 +46,8 @@
     background-color: blue;
     padding: 10px;
     margin: 10px;
+}
+.weigh-100px{
+    height: 500px;
+    width: auto;
 }

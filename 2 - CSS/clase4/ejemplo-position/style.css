@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 4px 4px 4px grey;
+}
+h1 {
+  font-size: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+p {
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+#message {
+  width: inherit;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px grey;
+  /* change the position properties here */
+  position: absolute; 
+  top: 1000px;
+}
+#message * {
+  margin: 10px;
+}
+#message .header {
+  margin: 0px;
+  background-color: #ddd;
+  padding: 10px;
+  font-weight: 900;
+  display: flex;
+  justify-content: space-between;
+}
+#message button {
+  height: 30px;
+  width: 80px;
+}

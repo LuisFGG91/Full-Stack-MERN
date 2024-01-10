@@ -1,0 +1,51 @@
+       body {
+           margin: 0;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+           background-color: #f0f0f0;
+           /* Color de fondo */
+       }
+
+       .flag {
+           width: 300px;
+           height: 200px;
+           position: relative;
+       }
+
+       .white {
+           width: 100%;
+           height: 50%;
+           background-color: #ffffff;
+           /* Blanco */
+       }
+
+       .red {
+           width: 100%;
+           height: 50%;
+           background-color: #d52b1e;
+           /* Rojo */
+       }
+
+       .blue-square {
+           width: 25%;
+           height: 50%;
+           background-color: #0039a6;
+           /* Azul */
+           position: absolute;
+           top: 0;
+           left: 0;
+       }
+
+       .star {
+           width: 80%;
+           /* Tamaño de la estrella */
+           height: 80%;
+           clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+           background-color: #ffffff;
+           /* Blanco */
+           position: absolute;
+           top: 10%;
+           left: 10%;
+       }
