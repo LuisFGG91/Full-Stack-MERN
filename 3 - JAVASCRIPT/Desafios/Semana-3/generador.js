@@ -39,4 +39,15 @@ const generarContrasena = (longitud, incluirMayusculas, incluirNumeros, incluirS
 
 // Ejemplo de uso
 const contrasenaGenerada = generarContrasena(12, true, true, true);
+const contrasenaGenerada1 = generarContrasena(12, true, true, true);
+const contrasenaGenerada2 = generarContrasena(12, true, true, true);
+const contrasenaGenerada3 = generarContrasena(12, true, true, true);
+const contrasenaGenerada4 = generarContrasena(12, true, true, true);
+const contrasenaGenerada5 = generarContrasena(12, true, true, true);
+
 console.log(contrasenaGenerada);
+console.log(contrasenaGenerada1);
+console.log(contrasenaGenerada2);
+console.log(contrasenaGenerada3);
+console.log(contrasenaGenerada4);
+console.log(contrasenaGenerada5);
