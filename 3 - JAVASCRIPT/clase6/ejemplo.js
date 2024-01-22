@@ -5,9 +5,9 @@ if (true){
 }
 console.log(x)
 
-console.log(y)
+/*console.log(y)
 if(true){
     let y = 20;
     console.log(y)
 }
-console.log(y)
+console.log(y)*/
