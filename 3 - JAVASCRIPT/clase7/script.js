@@ -39,10 +39,7 @@ function cambioIMG(par){
 
 function cambioColor(){
     console.log(nav.style.backgroundColor)
-
-
     let option = nav.style.backgroundColor
-
     switch(option){
         case "blue" :
             console.log(1)
@@ -55,7 +52,6 @@ function cambioColor(){
         default:
             console.log("default")
     }
-
 }
 
 
