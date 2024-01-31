@@ -24,20 +24,20 @@ console.log(logoImg)
 
 
 
-function cambioIMG(par){
-    console.log(logoImg.src)
-    if ( par== true )
-    {   
-        console.log(true)
-        logoImg.src = './img/img.jpeg'
-    } else{
-        console.log(false)
-        logoImg.src = './img/img2.avif'
-    }
 
-}
 
 function cambioColor(){
+    function cambioIMG(par) {
+        console.log(logoImg.src)
+        if (par == true) {
+            console.log(true)
+            logoImg.src = './img/img.jpeg'
+        } else {
+            console.log(false)
+            logoImg.src = './img/img2.avif'
+        }
+
+    }
     console.log(nav.style.backgroundColor)
     let option = nav.style.backgroundColor
     switch(option){
@@ -56,6 +56,7 @@ function cambioColor(){
 
 
 function cambio(){
+
     var h3 = document.querySelector("h3");
     if (h3.innerText == "New Title"){
         h3.innerText = "Lorem Ipsem";
