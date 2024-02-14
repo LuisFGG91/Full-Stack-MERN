@@ -2,12 +2,17 @@ import React, { Component } from "react";
 import '../assets/style.css';
 import img1 from '../assets/img/adrien-s.jpg';
 import UserCard from "./user-card";
+import PersonCard from "./personCard";
 
 class Main extends Component {
     render() {
         return (
             <div className="flex-container main">
                 <div className="col-2">
+                    <PersonCard firstName="John" lastName="Smith" age={8} hairColor={"Brown"} /> 
+                    <PersonCard firstName="Luis" lastName="Smith" age={8} hairColor={"Brown"} /> 
+                    <PersonCard firstName="juan" lastName="Smith" age={8} hairColor={"Brown"} /> 
+
                     <UserCard firstName="Luis" lastName="Guerrero">
                     </UserCard>
                     <UserCard firstName="Ana" lastName="Guerrero">
