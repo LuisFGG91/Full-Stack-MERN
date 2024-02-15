@@ -3,6 +3,11 @@ import '../assets/style.css';
 import img1 from '../assets/img/adrien-s.jpg';
 import UserCard from "./user-card";
 import PersonCard from "./personCard";
+import Counter from "./counter";
+import CounterV2  from "./counterV2";
+import Wrapper from './Wrapper';
+import UserForm from './userForm';
+
 
 class Main extends Component {
     render() {
@@ -10,8 +15,13 @@ class Main extends Component {
             <div className="flex-container main">
                 <div className="col-2">
                     <PersonCard firstName="John" lastName="Smith" age={8} hairColor={"Brown"} /> 
-                    <PersonCard firstName="Luis" lastName="Smith" age={8} hairColor={"Brown"} /> 
-                    <PersonCard firstName="juan" lastName="Smith" age={8} hairColor={"Brown"} /> 
+                    
+                    <Counter/> 
+                    <CounterV2 /> 
+                    <UserForm /> 
+                    
+                    <Wrapper items={['something', 'sombrero', 'wholesome', 'ransom', 'apple', 'react', 'javascript']} />
+
 
                     <UserCard firstName="Luis" lastName="Guerrero">
                     </UserCard>
