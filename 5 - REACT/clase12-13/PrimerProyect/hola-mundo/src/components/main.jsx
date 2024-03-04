@@ -7,21 +7,24 @@ import Counter from "./counter";
 import CounterV2  from "./counterV2";
 import Wrapper from './Wrapper';
 import UserForm from './userForm';
+import DataGridDemo from './tabla';
+import MovieForm from './movie/movieForm';
+import FruitForm from './fruit/fruitForm';
+import MovieList from './movie/movieList';
+import MarsRoverImg from './axios/axiosMarsRoverImg';
+import Router from '../routers/router'
+import RouterParam from '../routers/routerParam'
+import UseNavigate from '../navigate/useNavigate'
+import Mensaje from './axios/axiosApiV2';
 
 
-class Main extends Component {
-    render() {
-        return (
-            <div className="flex-container main">
-                <div className="col-2">
-                    <PersonCard firstName="John" lastName="Smith" age={8} hairColor={"Brown"} /> 
-                    
-                    <Counter/> 
-                    <CounterV2 /> 
-                    <UserForm /> 
-                    
-                    <Wrapper items={['something', 'sombrero', 'wholesome', 'ransom', 'apple', 'react', 'javascript']} />
+/*
+                    <DataGridDemo></DataGridDemo>
+                    <MovieForm /> 
+                    <FruitForm /> 
 
+                    <MovieList movies={['movie1', 'movie2', 'movie3', 'movie3', 'movie3', 'movie3', 'movie3']} /> 
+        
 
                     <UserCard firstName="Luis" lastName="Guerrero">
                     </UserCard>
@@ -31,6 +34,22 @@ class Main extends Component {
                     </UserCard>
                     <UserCard firstName="Maria" lastName="Guerrero">
                     </UserCard>
+                    <PersonCard firstName="John" lastName="Smith" age={8} hairColor={"Brown"} />
+
+                    <Counter />
+                    <CounterV2 />
+                    <Wrapper items={['something', 'sombrero', 'wholesome', 'ransom', 'apple', 'react', 'javascript']} />
+                                       <UserForm/> 
+                    <MarsRoverImg></MarsRoverImg>
+  
+*/
+
+class Main extends Component {
+    render() {
+        return (
+            <div className="flex-container main">
+                <div className="col-2">
+                   
                     <div className="card">
                         <div className="card-header">
                             <h3>Education</h3>
@@ -40,7 +59,16 @@ class Main extends Component {
                             <p className="dates">Dec 2019 - Mar 2020</p>
                             <p>Triple black belt in Python, MERN, and C#...</p>
                         </div>
-                    </div>
+                    </div>    
+                    <MovieForm />
+                    <FruitForm /> 
+                    <Mensaje/>
+
+                    <UseNavigate /> 
+                    <Router></Router>
+                    <RouterParam></RouterParam>
+
+
                 </div>
                 <div className="col-1">
                     <div className="card">
