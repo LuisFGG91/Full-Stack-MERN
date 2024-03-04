@@ -37,6 +37,9 @@ class Empresa {
         
     }
 }
+
+
+
 //Controladores
 const empresaController = {
     obtenerEmpresa: (req, res) => {
@@ -64,6 +67,7 @@ const usuarioController = {
 app.get("/api/usuario/new", usuarioController.obtenerUsuario);
 app.get("/api/empresa/new", empresaController.obtenerEmpresa);
 app.get("/api/usuario/empresa", usuarioController.obtenerUsuarioYEmpresa);
+
 
 const server = app.listen(port, () =>
     console.log(`Server is locked and loaded on port ${server.address().port}!`)
