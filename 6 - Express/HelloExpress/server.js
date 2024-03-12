@@ -37,8 +37,7 @@ app.get("/api/users", (req, res) => {
   res.json(users);
 });
 
-//POST
-app.post("/api/users", (req, res) => {
+const obterner = (req, res) => {
   // req.body contendrá los datos del formulario desde Postman o desde React
   console.log("Ejemplo")
   console.log(req.body);
@@ -47,7 +46,10 @@ app.post("/api/users", (req, res) => {
   users.push(req.body);
   // siempre tendremos que responder con algo
   res.json({ status: "ok" });
-});
+}
+
+//POST
+app.post("/api/users", obterner );
 
 // si queremos obtener un usuario con un id específico, podemos hacer que el id sea parte de la url
 // asegúrate de preceder la variable id con dos puntos `:`
